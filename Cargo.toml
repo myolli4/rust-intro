@@ -1,0 +1,15 @@
+[package]
+name = "rust-intro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "2.9.0"
+actix-web = "4.4.0"
+config = "0.13.3"
+dotenv = "0.15.0"
+gdb = "0.1.0"
+serde = { version = "1.0.188", features = ["derive"] }
+tokio = { version = "1.32.0", features = ["full"] }
