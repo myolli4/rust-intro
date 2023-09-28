@@ -31,7 +31,6 @@ async fn main() -> io::Result<()>
     match builder.build() {
         Ok(cfg) => {
             config = cfg
-            // println!("{:?}", address);
         }
         Err(err) => {
             panic!("{}", err);
